@@ -5,7 +5,7 @@ pipeline {
     tools {
         nodejs 'nodejs23'
     }
-
+ 
     environment {
         SCANNER_HOME = tool 'sonar-scanner'
     }
